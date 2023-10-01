@@ -1,13 +1,4 @@
-import {
-  ViewerApp,
-  AssetManagerPlugin,
-  GBufferPlugin,
-  ProgressivePlugin,
-  TonemapPlugin,
-  SSRPlugin,
-  SSAOPlugin,
-  BloomPlugin,
-} from "webgi";
+import * from "webgi";
 import "./styles.css";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
